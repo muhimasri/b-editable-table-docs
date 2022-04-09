@@ -1,0 +1,19 @@
+{
+  "name": "b-editable-table-docs",
+  "version": "0.0.1",
+  "description": "BootstrapVue editable table guide",
+  "main": "index.js",
+  "authors": {
+    "name": "Muhi Masri",
+    "email": "muhi@muhimasri.com"
+  },
+  "repository": "https://github.com/muhimasri/b-editable-table-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
