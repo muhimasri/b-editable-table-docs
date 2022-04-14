@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'BootstrapVue Editable Table',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -53,7 +53,18 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'basic-usage',
+            'data-binding',
+            'form-elements',
+            'column-width',
+            'custom-styling',
+            'keyboard-keys',
+            'custom-cell',
+            'row-editing',
+            'input-validation',
+            'add-update-and-remove-rows',
+            'load-data-via-rest-api',
+            'api'
           ]
         }
       ],
