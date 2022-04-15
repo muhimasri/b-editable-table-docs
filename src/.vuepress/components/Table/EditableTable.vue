@@ -3,6 +3,7 @@
     <b-button v-if="enableAddRemove" variant="success" @click="handleAdd()"
       >Add Row</b-button
     >
+    <no-ssr>
     <b-editable-table
       :disableDefaultEdit="disableDefaultEdit"
       :rowUpdate="rowUpdate"
@@ -37,11 +38,14 @@
         ></BIconTrash>
       </template>
     </b-editable-table>
+    </no-ssr>
   </div>
 </template>
 
 <script>
 import BEditableTable from "bootstrap-vue-editable-table";
+import NoSSR from 'vue-no-ssr';
+
 import {
   BIconTrash,
   BIconPencil,
@@ -57,6 +61,7 @@ export default {
     BIconPencil,
     BIconCheck2,
     BButton,
+    'no-ssr': NoSSR
   },
   props: {
     editMode: {
