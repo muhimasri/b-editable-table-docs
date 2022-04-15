@@ -38,12 +38,12 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Github',
+        link: 'https://github.com/muhimasri/b-editable-table'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Npm',
+        link: 'https://www.npmjs.com/package/bootstrap-vue-editable-table'
       }
     ],
     sidebar: {
@@ -77,5 +77,9 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    '@vuepress/plugin-google-analytics',
+      {
+        id: 'G-51YS15PBZ8',
+      },
   ]
 }

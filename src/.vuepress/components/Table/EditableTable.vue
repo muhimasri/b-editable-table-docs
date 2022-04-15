@@ -1,7 +1,7 @@
 <template>
   <div class="table-container">
     <b-button v-if="enableAddRemove" variant="success" @click="handleAdd()"
-      >Add</b-button
+      >Add Row</b-button
     >
     <b-editable-table
       :disableDefaultEdit="disableDefaultEdit"
@@ -17,12 +17,12 @@
         <span v-else>No</span>
       </template>
       <template #cell(edit)="data">
-        <div v-if="data.isEdit">
+        <div class="edit-cell" v-if="data.isEdit">
           <BIconX class="edit-icon" @click="handleSubmit(data, false)"></BIconX>
-          <BIconCheck
-            class="edit-icon"
+          <BIconCheck2
+            class="edit-icon check-icon"
             @click="handleSubmit(data, true)"
-          ></BIconCheck>
+          ></BIconCheck2>
         </div>
         <BIconPencil
           v-else
@@ -46,7 +46,7 @@ import {
   BIconTrash,
   BIconPencil,
   BIconX,
-  BIconCheck,
+  BIconCheck2,
   BButton,
 } from "bootstrap-vue";
 export default {
@@ -55,7 +55,7 @@ export default {
     BIconX,
     BIconTrash,
     BIconPencil,
-    BIconCheck,
+    BIconCheck2,
     BButton,
   },
   props: {
@@ -142,7 +142,7 @@ export default {
         },
         {
           key: "isActive",
-          label: "Is Active",
+          label: "Active",
           type: "checkbox",
           editable: true,
           class: "is-active-col",
@@ -284,6 +284,15 @@ table.editable-table td {
   font-size: 20px;
 }
 
+.check-icon {
+  color: #36c700;
+  margin-left: 7px;
+}
+
+.edit-cell {
+  display: flex;  
+}
+
 .name-col {
   width: 120px;
 }
@@ -301,7 +310,8 @@ table.editable-table td {
 }
 
 .is-active-col {
-  width: 100px;
+  width: 78px;
+  margin-left: 9px;
 }
 
 .edit-col {

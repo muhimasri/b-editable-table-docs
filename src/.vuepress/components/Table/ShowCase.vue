@@ -2,7 +2,7 @@
   <main aria-labelledby="main-title" class="home">
     <header class="hero">
       <div>
-        <img src="https://v1.vuepress.vuejs.org/hero.png" alt="hero" />
+        <img src="./b-editable-table-logo.png" alt="hero" />
         <h1 id="main-title">BootstrapVue Editable Table</h1>
         <p class="action">
           <a href="/guide/" class="nav-link action-button"> Quick Start → </a>
@@ -66,12 +66,12 @@
         ></EditableTable>
       </div>
     </header>
-    <div class="footer">Made by Muhi Masri with ❤️</div>
+    <div class="footer">Made by <a target="_blank" href="https://muhimasri.com">Muhi Masri</a> with ❤️</div>
   </main>
 </template>
 
 <script>
-import EditableTable from "../show-case/EditableTable";
+import EditableTable from "./EditableTable";
 import { BFormRadio, BCard, BFormGroup, BFormCheckbox } from "bootstrap-vue";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
@@ -98,6 +98,12 @@ export default {
 </script>
 
 <style>
+table {
+    overflow-x: unset;
+}
+.theme-default-content:not(.custom) {
+    max-width: 820px;
+}
 .home {
   padding: 0;
 }
@@ -126,6 +132,9 @@ export default {
 } 
 
 .main-container {
+  display: flex;
+    align-items: center;
+    flex-direction: column;
   margin: 20px;
   text-align: left;
 }

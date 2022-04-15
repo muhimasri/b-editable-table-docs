@@ -14,4 +14,4 @@ features:
 footer: Made by Muhi Masri with ❤️
 --- -->
 
-<Foo-Bar/>
+<Table-ShowCase/>

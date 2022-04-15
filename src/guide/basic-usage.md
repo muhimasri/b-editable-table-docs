@@ -92,7 +92,7 @@ table.editable-table td {
 }
 </style>
 ```
-Each row requires a unique id. Otherwise, the table will not function properly. `items` and `fields` are the same properties used in BootstrapVue Table except we are introducing a new `type` and `editable` property in the `fields` object to indicate what element is required in every column and whether or not it should be editable. Also, `v-model` is supported for two-way binding, but you can still use `:items` instead for one-way binding. More on that in the [Data Binding](#data-binding) section.
+Each row requires a unique id. Otherwise, the table will not function properly. `items` and `fields` are the same properties used in BootstrapVue Table except we are introducing a new `type` and `editable` property in the `fields` object to indicate what element is required in every column and whether or not it should be editable. Also, `v-model` is supported for two-way binding, but you can still use `:items` instead for one-way binding. More on that in the [Data Binding](data-binding.html) section.
 
 For `select` element, options can be passed as another property (as shown in the example above). Since this is a [Boostrap Form Select](https://bootstrap-vue.org/docs/components/form-select), it supports a list of strings or key/value objects:
 

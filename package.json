@@ -17,6 +17,7 @@
     "vuepress": "^1.5.3"
   },
   "dependencies": {
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.38",
     "bootstrap": "^4.6.1",
     "bootstrap-vue": "^2.21.2",
     "bootstrap-vue-editable-table": "^0.1.2-beta.7"
