@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'BootstrapVue Editable Table',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -38,12 +38,12 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Github',
+        link: 'https://github.com/muhimasri/b-editable-table'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Npm',
+        link: 'https://www.npmjs.com/package/bootstrap-vue-editable-table'
       }
     ],
     sidebar: {
@@ -53,7 +53,18 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'basic-usage',
+            'data-binding',
+            'form-elements',
+            'column-width',
+            'custom-styling',
+            'keyboard-keys',
+            'custom-cell',
+            'row-editing',
+            'input-validation',
+            'add-update-and-remove-rows',
+            'load-data-via-rest-api',
+            'api'
           ]
         }
       ],
@@ -66,5 +77,9 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    '@vuepress/plugin-google-analytics',
+      {
+        id: 'G-51YS15PBZ8',
+      },
   ]
 }
