@@ -5,7 +5,7 @@
         <img src="./b-editable-table-logo.png" alt="hero" />
         <h1 id="main-title">BootstrapVue Editable Table</h1>
         <p class="action">
-          <a href="/guide/" class="nav-link action-button"> Quick Start → </a>
+          <a href="/guide/" class="nav-link action-button"> Get Started → </a>
         </p>
       </div>
       <div class="main-container">
@@ -66,6 +66,14 @@
         ></EditableTable>
       </div>
     </header>
+    <div>
+        <b>Code Examples:</b>
+        <a target="_blank" href="https://codesandbox.io/s/bootstrap-vue-editable-table-wx012?file=/src/App.vue">Edit Cell</a> |
+        <a target="_blank" href="https://codesandbox.io/s/bootstrap-vue-row-editing-7w1scn?file=/src/App.vue">Edit Row</a> |
+        <a target="_blank" href="https://codesandbox.io/s/vue-add-remove-table-rows-chtnj?file=/src/App.vue">Add, Update and Remove Rows</a> |
+        <a target="_blank" href="https://codesandbox.io/s/vue-table-validation-pcysqz?file=/src/App.vue">Input Validation</a> |
+        <a target="_blank" href="https://codesandbox.io/s/vue-table-load-data-api-cub6i">Load Data via Rest API</a>
+      </div>
     <div class="footer">Made by <a target="_blank" href="https://muhimasri.com">Muhi Masri</a> with ❤️</div>
   </main>
 </template>

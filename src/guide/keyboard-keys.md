@@ -1,4 +1,4 @@
-# Keyboard Keys:
+# Keyboard Keys
 |Key |Behavior |
 |--|--|
 | Tab | Move to the next cell and commit changes (only on `cell` edit mode) |

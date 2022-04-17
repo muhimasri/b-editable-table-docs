@@ -1,4 +1,4 @@
-# Form Elements:
+# Form Elements
 Every column requires a `type` and `editable` property to make the cell editable:
 
 ```json

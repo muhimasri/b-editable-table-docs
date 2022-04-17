@@ -25,7 +25,9 @@ validateName(value) {
 If `valid` is `false`, the cell value will not be updated.
 `errorMessage` is optional and will be displayed in a tooltip if the value is invalid.
 
-Below is a complete example: 
+Below is a complete example:
+
+[Run example on CodeSandbox](https://codesandbox.io/s/vue-table-validation-pcysqz?file=/src/App.vue)
 ```html
 <template>
 <div>

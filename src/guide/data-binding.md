@@ -1,4 +1,4 @@
-# Data Binding:
+# Data Binding
 
 |Data | Binding |
 |--|--|

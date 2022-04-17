@@ -36,3 +36,11 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 ```
 Please refer to [BoostrapVue Docs](https://bootstrap-vue.org/docs) for more details.
+
+## Examples on CodeSandbox
+
+* [Edit Cell](https://codesandbox.io/s/bootstrap-vue-editable-table-wx012?file=/src/App.vue)
+* [Edit Row](https://codesandbox.io/s/bootstrap-vue-row-editing-7w1scn?file=/src/App.vue)
+* [Add, Update and Remove Rows](https://codesandbox.io/s/vue-add-remove-table-rows-chtnj?file=/src/App.vue)
+* [Input Validation](https://codesandbox.io/s/vue-table-validation-pcysqz?file=/src/App.vue)
+* [Load Data via Rest API](https://codesandbox.io/s/vue-table-load-data-api-cub6i)
