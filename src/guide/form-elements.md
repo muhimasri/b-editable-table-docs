@@ -18,6 +18,7 @@ Elements' attributes and properties are supported by passing them directly throu
 |Type | Description |
 |--|--|
 | text | Bootstrap Form Text Input
+| textarea | Bootstrap Form Textarea
 | number | Bootstrap Form Number Input
 | select | Bootstrap Form Select
 | date | Bootstrap Form Datepicker

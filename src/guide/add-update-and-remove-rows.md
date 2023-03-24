@@ -159,6 +159,8 @@ export default {
         edit: true,
         id: Date.now(),
         action: "add",
+        // The default add position is at the top of the list. Use the below prop to insert a new row to the very end.
+        // addPosition: "end",
         data: {
           id: Date.now(),
           age: null,
