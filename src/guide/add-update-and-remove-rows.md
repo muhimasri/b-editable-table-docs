@@ -191,6 +191,7 @@ export default {
 <style>
 .table-container {
   margin: 10px;
+  width: auto;
 }
 
 table.editable-table {
@@ -199,6 +200,7 @@ table.editable-table {
 
 table.editable-table td {
   vertical-align: middle;
+  padding: 0;
 }
 
 .editable-table .data-cell {
