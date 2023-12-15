@@ -59,12 +59,13 @@ export default {
 <style>
 table.editable-table {
   margin: auto;
+  width: auto;
 }
 
 table.editable-table td {
   vertical-align: middle;
+  padding: 0;
 }
-
 .editable-table .data-cell {
   padding: 8px;
   vertical-align: middle;
