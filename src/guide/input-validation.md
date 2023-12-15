@@ -184,13 +184,15 @@ Below is a complete example:
 </script>
 
 <style>
-  table.editable-table {
-    margin: auto;
-  }
+table.editable-table {
+  margin: auto;
+  width: auto;
+}
 
-  table.editable-table td {
-    vertical-align: middle;
-  }
+table.editable-table td {
+  vertical-align: middle;
+  padding: 0;
+}
 
   .editable-table .data-cell {
     padding: 8px;
